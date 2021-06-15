@@ -5,6 +5,7 @@ RUN apt update -y
 RUN apt install curl -y
 RUN apt install unrar -y
 RUN apt install wget -y
+RUN apt install mutt -y
 RUN apt install jupyter -y
 RUN apt install unzip -y
 COPY jupyter.py /conf/jupyter.py
